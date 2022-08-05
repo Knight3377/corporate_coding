@@ -1,0 +1,790 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (max-width: 1000px) {
+    .header .header_content .navgation ul li {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header .menu_btn {
+        display: block;
+    }
+    .header .navgation {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .pc {
+        display: none!important;
+    }
+    .sp {
+        display: block!important;
+    }
+p{
+    font-size: 4vw;
+    line-height: 7vw!important;
+    
+}
+h3{
+    font-size: 5.5vw;
+}
+h6{
+    font-size: 4.5vw;
+    font-weight: normal;
+}
+
+/* header */
+.header .header_content{
+    display: flex;
+    padding: 3% 4%;
+    justify-content: space-between;
+}
+.logo a img{
+    width: 20vw;
+}
+.overlay-content ul li a{
+    color: white;
+}
+.service-content-nav-sp a{
+    color: white;
+    padding: 5% 13%;
+    margin: 0 -13%;
+    background-color: #00466d;
+    border: 0.5px solid white;
+}
+.slick-dotted.slick-slider{
+    margin-bottom: 0;
+}
+
+/* main slide */
+.main_slide {
+    width: 100%;
+}
+
+.main_slide .center img {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    padding: 10%;
+}
+.slick-prev, .slick-next{
+    display: none!important;
+}
+.slick-dots{
+    display: none!important;
+}
+.banner-text{
+    top: 40%;
+    left: 16%;
+}
+.banner-text h2{
+    font-size: 6vw;
+}
+.banner-text h3{
+    font-size: 6vw;
+}
+.center-nav{
+    display:  none;
+}
+/* notice section*/
+.notice{
+    padding: 2% 5%;
+    margin-top: 5%;
+}
+.date{
+    font-size: 2vw;
+}
+.cat{
+    font-size: 1.5vw;
+    padding: 0% 4%;
+    margin: 0 3%;
+}
+.notice p{
+    font-size: 1.5vw;
+}
+
+/* intro section */
+.intro-header{
+    padding: 10% 5%;
+}
+.intro-header h4{
+    font-size: 6vw;
+}
+.intro-header h6{
+    font-size: 4vw;
+}
+.intro-header p{
+    font-size: 3.5vw;
+}
+.intro-text{
+    padding: 10% 5%;
+}
+.intro-text h4{
+    font-size: 6vw;
+}
+.intro-text p{
+    font-size: 4vw;
+}
+.tabs-nav{
+    margin-top: -9vw;
+}
+.tabs-nav li{
+    border: none;
+}
+.tabs-nav li.active, .tabs-nav li{
+    padding: 0 3%;
+    border: none;
+}
+.tabs-nav li.active a, .tabs-nav li a{
+    font-size: 2vw;
+}
+.tabs-content{
+    padding: 10% 5%;
+}
+.tab-inner{
+    display: block;
+}
+.tabs-content img{
+    width: 100%;
+}
+.tab-text{
+    text-align: center;
+    padding: 5% 0; 
+}
+.tab-text h2{
+    text-align: center;
+    font-size: 8vw;
+}
+.tab-text h6{
+    font-size: 5vw;
+    margin: 5% 0;
+}
+.tab-text p{
+    font-size: 3vw;
+}
+.more a{
+    font-size: 4vw;
+    padding: 5vw 10vw;
+}
+
+/* service section */
+.service{
+    padding: 10% 5%;
+}
+.service-title h3{
+    font-size: 8vw;
+}
+.service-title p{
+    font-size: 5vw;
+}
+.service p{
+    font-size: 3vw;
+}
+.service-inner{
+    position: relative;
+    padding: 0%;
+    margin: 5% -5%;
+}
+.service-first{
+    border: none;
+    background: url(../img/service-1.png) no-repeat;
+    background-size: cover;
+    height: 75vw;
+}
+.service-second{
+    border: none;
+    background: url(../img/service-2.png) no-repeat;
+    background-size: cover;
+    height: 75vw;
+}
+.service-third{
+    border: none;
+    background: url(../img/service-3.png) no-repeat;
+    background-size: cover;
+    height: 75vw;
+}
+.service-fourth{
+    border: none;
+    background: url(../img/service-4.png) no-repeat;
+    background-size: cover;
+    height: 75vw;
+}
+.service-box{
+    position: relative;
+    padding: 9% 10%;
+}
+.ev .service-box, .estate .service-box{
+    padding: 7% 10%;
+}
+.service-box h4{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 7vw;
+    text-align: left;
+    color: white;
+}
+.service-box h5{
+    display: block;
+    font-size: 4vw;
+}
+.service-box h6{
+    color: white;
+    text-align: left;
+    font-size: 4vw;
+    font-weight: bold;
+}
+.service-content p{
+    font-size: 4vw;
+}
+.service .more {
+    margin: 10% 0 5%;
+}
+
+/* news section */
+.news{
+    padding: 10% 5%;
+}
+.news-title h3{
+    font-size: 8vw;
+}
+.news-title p{
+    font-size: 3vw;
+}
+.notice-line{
+    padding: 3% 0;
+}
+.notice-line p{
+    font-size: 2vw;
+}
+.btn-news a{
+    font-size: 4vw;
+    padding: 5vw 10vw; 
+}
+
+/* bottom section */
+.bottom{
+    display: block;
+}
+.join{
+    width: 90%;
+    padding: 10% 5%;
+}
+.join h2, .contact h2{
+    font-size: 8vw;
+}
+.join p, .contact p{
+    font-size: 4vw;
+}
+.join a, .contact a{
+    font-size: 4vw;
+    padding: 2% 5%;
+    width: 35vw;
+}
+.contact{
+    width: 90%;
+    padding: 10% 5%;
+}
+
+
+/* footer */
+footer{
+    padding: 10% 5%;
+}
+.footer-logo a img{
+    width: 25%;
+}
+.footer-content{
+    display: block;
+}
+.footer-left, .footer-right{
+    width: 100%;
+    margin: 3% 0;
+}
+.footer-left p, .footer-right p{
+    font-size: 3vw;
+}
+.footer-right a{
+    font-size: 4vw;
+}
+.copyright{
+    font-size: 3vw;
+}
+
+
+
+/* company page */
+.company-banner h2{
+    font-size: 6vw;
+}
+.company-banner h3{
+    font-size: 4vw;
+}
+.breadcrumb{
+    padding: 1% 5%;
+}
+.breadcrumb a{
+    font-size: 4vw;
+}
+.company-vision{
+    padding: 5%;
+}
+.title h3{
+    font-size: 6vw;
+}
+.title h4{
+    font-size: 4vw;
+}
+.company-vision-content img{
+    width: 100%;
+}
+.company-vision-box{
+    position: relative;
+    box-shadow: none;
+    margin-top: -2%;
+    border: 1px solid grey;
+}
+.message{
+    padding: 5%;
+}
+.message img{
+    width: 100%;
+}
+.company-profile{
+    padding: 5%;
+}
+.company-profile-box{
+    padding: 2% 0;
+}
+.company-profile-box p:first-child{
+    font-size: 4vw;
+    width: 40%;
+}
+.company-profile-box p:last-child{
+    font-size: 4vw;
+}
+.access{
+    padding: 5% 5% 10%;
+}
+iframe{
+    height: 80vw;
+}
+
+
+/* ev page */
+.ev-banner h2{
+    font-size: 6vw;
+}
+.ev-banner h3{
+    font-size: 4vw;
+}
+.ev-intro{
+    padding: 10% 5% 15%;
+}
+.ev-intro-content{
+    display: block;
+}
+.ev-intro-content p{
+    width: 100%;
+    margin-right: 0%;
+}
+.ev-intro-content img{
+    width: 100%;
+}
+.ev-profile{
+    padding: 5%;
+}
+.ev-profile table tr td:first-child{
+    font-size: 4vw;
+    width: 35%;
+}
+.ev-profile table tr td:last-child{
+    font-size: 4vw;
+}
+.ev-params{
+    padding: 5%;
+}
+
+/* consulting page */
+.consulting-banner h2{
+    font-size: 6vw;
+}
+.consulting-banner h3{
+    font-size: 4vw;
+}
+.consulting-intro{
+    padding: 10% 5% 15%;
+}
+.consulting-intro-inner{
+    display: block;
+}
+.consulting-intro-inner img{
+    width: 100%;
+    margin-right: 0;
+}
+
+
+/* IT solution page */
+.it-banner h2{
+    font-size: 6vw;
+}
+.it-banner h3{
+    font-size: 4vw;
+}
+.it-intro{
+    padding: 10% 5% 15%;
+}
+.it-intro-inner{
+    display: block;
+}
+.it-intro-inner img{
+    width: 100%;
+    margin-right: 0;
+}
+
+/* FC page */
+.fc-banner h2{
+    font-size: 6vw;
+}
+.fc-banner h3{
+    font-size: 4vw;
+}
+.fc-intro{
+    padding: 10% 5% 15%;
+}
+.fc-intro-inner{
+    display: block;
+}
+.fc-intro-inner img{
+    width: 100%;
+    margin-right: 0;
+}
+
+/* elliy page */
+.elliy-banner h2{
+    font-size: 6vw;
+}
+.elliy-banner h3{
+    font-size: 4vw;
+}
+.elliy-intro{
+    padding: 5%;
+}
+.elliy-intro h3{
+    font-size: 6vw;
+}
+.elliy-caption{
+    font-size: 5vw;
+}
+.elliy-half-left1, .elliy-half-left2, .elliy-half-right{
+    width: 100%;
+    position: relative;
+}
+.elliy-test-title h5{
+    font-size: 5vw;
+    padding: 5%;
+    width: 80%;
+    margin: 10% auto; 
+}
+.elliy-inner, .elliy-test-images{
+    display: block;
+}
+.elliy-test-images img{
+    width: 100%;
+}
+.elliy-safe{
+    display: block;
+}
+.elliy-safe p, .elliy-safe img{
+    width: 100%;
+}
+.elliy-character{
+    padding: 5%;
+}
+.elliy-test-title h5:after{
+    border-left: 6vw solid transparent;
+    border-top: 6vw solid #00729F;
+    border-right: 6vw solid transparent;
+}
+.elliycase{
+    padding: 5%;
+}
+.elliycase-box-1, .elliycase-box-2{
+    display: block;
+    margin: 10% 0;
+}
+.elliycase-box-1 img, .elliycase-box-2 img{
+    width: 100%;
+}
+.case-inner-content1, .case-inner-content2{
+    padding: 0;
+}
+.separator{
+    margin: 5% 0;
+}
+.case-content{
+    width: 100%;
+}
+.case-inner-content1 h2, .case-inner-content2 h2{
+    font-size: 20vw;
+    top: 10%;
+    left: 0;
+}
+.elliycase-box-2 .separator{
+    margin-left: 0;
+}
+.case-inner-content2 h3{
+    text-align: left;
+}
+.case-inner-content2{
+    width: 100%;
+}
+.elliy-parameter{
+    padding: 5%;
+}
+.btn-catalog{
+    padding: 5% 10%;
+}
+.btn-catalog a{
+    font-size: 5vw;
+    padding: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Real estate page */
+.real-banner h2{
+    font-size: 6vw;
+}
+.real-banner h3{
+    font-size: 4vw;
+}
+.real-intro{
+    padding: 10% 5% 15%;
+}
+.real-intro-inner{
+    display: block;
+}
+.real-intro-inner img{
+    width: 100%;
+    margin-right: 0;
+}
+
+/* Service page */
+.service-banner h2{
+    font-size: 6vw;
+}
+.service-banner h3{
+    font-size: 4vw;
+}
+.service-intro{
+    padding: 10% 5% 15%;
+}
+.service-intro-box1 img, .service-intro-box2 img{
+    width: 100%;
+    margin-left: 0;
+}
+.service-intro-inner1, .service-intro-inner2{
+    position: relative;
+    top: -1vw;
+    box-shadow: none;
+    border: 1px solid grey;
+    width: 89.5%;
+    padding: 5% 5% 10%;
+}
+.service-intro-inner1 h3, .service-intro-inner2 h3{
+    font-size: 6vw;
+}
+.service-intro-inner1 p, .service-intro-inner2 p{
+    font-size: 4vw;
+}
+.btn-more{
+    font-size: 4vw;
+    padding: 7% 15%;
+}
+
+/* Recruit Page */
+.recruit-banner h2{
+    font-size: 6vw;
+}
+.recruit-banner h3{
+    font-size: 4vw;
+}
+.new-recruit, .mid-recruit{
+    padding: 5% 5% 15%;
+}
+.recruit-notice{
+    display: block;
+}
+.notice-left, .notice-right{
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+.notice-right p{
+    font-size: 3.5vw;
+}
+.notice-left h5, .notice-right h5{
+    font-size: 6vw;
+}
+.recruit-content table tr td{
+    font-size: 4vw;
+}
+.btn-recruit-new, .btn-recruit-mid{
+    font-size: 4vw;
+    padding: 6% 10%;
+}
+
+
+/* contact page */
+.contact-banner h2{
+    font-size: 6vw;
+}
+.contact-banner h3{
+    font-size: 4vw;
+}
+.contact-content{
+    padding: 5%;
+}
+.contact-content h2{
+    font-size: 6vw;
+}
+.contact-content p{
+    font-size: 3.5vw;
+}
+
+/* hamburger menu */
+.service-content-nav-sp{
+    display: none;
+}
+.service-sp-arrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-sp-arrow p{
+    color: white;
+}
+.service-sp-arrow p{
+    color: white;
+}
+
+.contact-title{
+    padding: 5%;
+}
+.wpcf7{
+    padding: 5%;
+}
+.wpcf7-form{
+    padding: 0 5%;
+}
+.essential{
+    font-size: 3vw;
+    padding: 1% 4%;
+}
+.wpcf7-form p label{
+    width: 28%;
+}
+.wpcf7-form p:nth-child(9n) .wpcf7-form-control-wrap{
+    text-align: center;
+}
+.wpcf7-form p:nth-child(9n-1){
+    font-size: 3.5vw;
+}
+.wpcf7-list-item-label{
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+
+.center-nav{
+    display: block;
+    width: 90vw;
+    top: -10vw;
+}
+.banner-text h2{
+    font-size: 4vw;
+}
+.banner-text{
+    left: 20%;
+}
+.banner-text h3{
+    font-size: 3vw;
+}
+.center-nav .slick-current{
+    height: 8.5vw;    
+}
+.center-nav  .slick-slide{
+    height: 8.5vw;
+}
+.banner-text-nav{
+    top: 20%;
+    left: 5%;
+}
+.center-nav .slick-current .banner-text-nav h2, h3{
+    font-size: 1.1vw;
+}
+.animation2{
+    font-size: 1.1vw;
+}
+.animation3{
+    font-size: 1.3vw;
+}
+.slick-prev:before, .slick-next:before{
+    font-size: 5vw;
+}
+.slick-prev, .slick-next{
+    top: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
