@@ -444,7 +444,7 @@ animation-timing-function: ease-in-out;
 }
 .center-nav .slick-current .banner-text-nav h2, h3{
     font-size: 16px;
-    /*color: black;*/
+    color: black;
 }
 .navanim{
   height: 120px;
@@ -1811,7 +1811,7 @@ footer p, .footer-right p{
 .cb_service_item_list .content {
     position: absolute;
     left: 0;
-    bottom: -100%;
+    bottom: -290.954px;
     padding: 0 40px 50px;
     z-index: 2;
     -webkit-transition: bottom .7s cubic-bezier(.22,1,.36,1);
@@ -1889,12 +1889,15 @@ footer p, .footer-right p{
 }
 .cb_service_item_list .title span {
     display: block;
+    color: white;
 }
  .main_title {
     font-size: 26px;
+    color: white;
 }
 .sub_title {
     margin-top: 13px;
+    color: white;
 }
  .cb_service_item_list .bottom_title {
     opacity: 0;
@@ -1906,6 +1909,7 @@ footer p, .footer-right p{
     display: inline-block;
     padding: 0 20px 0 0;
     text-align: left;
+    color: white;
 }
 .cb_service_item_list .bottom_title span {
     -webkit-transition: opacity .5s ease 0s;

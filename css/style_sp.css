@@ -774,12 +774,24 @@ iframe{
 
 
 
+.cb_service_item_list .title span.main_title{
+    font-size: 1.7vw;
+}
+.cb_service_item_list .title span.sub_title{
+    font-size: 1.3vw;
+}
+.desc span, .bottom_title span{
+    font-size: 1.2vw;
+}
+.cb_service_item_list .content{
+    bottom: -23vw;
+    padding: 0 2vw 2vw;
+}
 
 
-
-
-
-
+.space{
+    display: none;
+}
 
 
 
